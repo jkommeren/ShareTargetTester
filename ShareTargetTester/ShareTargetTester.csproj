@@ -40,7 +40,7 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-
+    <MauiIcon Include="Resources\AppIcon\bea.png" Resize="True" Color="#FF0000" BaseSize="128,128" />
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 
@@ -56,11 +56,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\AppIcon\beamoflightsvg.svg" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiIcon Include="Resources\AppIcon\beamoflightsvg.svg" />
+	  <MauiImage Include="Platforms\Android\Resources\drawable\beamie.xml" />
 	</ItemGroup>
 
 	<ItemGroup>
